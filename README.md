@@ -1,2 +1,2 @@
 # Результат:
- <img src="/foto/снимок.PNG" />
+ <img src="/foto/Снимок.PNG" />
