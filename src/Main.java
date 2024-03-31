@@ -1,28 +1,28 @@
 public class Main {
     public static void main(String[] args) {
-        int Popoln = 1250;
-          System.out.println("Пополнение:");
-          System.out.println(Popoln);
-        int NaSchetu = 200;
-          System.out.println("На счете:");
-          System.out.println(NaSchetu);
+        int deposit = 1255;
+        System.out.println("Пополнение:");
+        System.out.println(deposit);
+        int onaccount = 200;
+        System.out.println("На счете:");
+        System.out.println(onaccount);
 
-        int Bonus;
-        int All;
-        if (Popoln >= 1000) {
-            Bonus = Popoln / 100;
-            All = Popoln + NaSchetu + Bonus;
-              System.out.println("Бонус:");
-              System.out.println(Bonus);
-              System.out.println("Всего:");
-              System.out.println(All);
+        int bonus;
+        int all;
+        if (deposit >= 1000) {
+            bonus = deposit / 100;
+            all = deposit + onaccount + bonus;
+            System.out.println("Бонус:");
+            System.out.println(bonus);
+            System.out.println("Всего:");
+            System.out.println(all);
         } else {
 
             System.out.println("Бонус:");
             System.out.println("0");
-            All = Popoln + NaSchetu;
-              System.out.println("Всего:");
-              System.out.println(All);
+            all = deposit + onaccount;
+            System.out.println("Всего:");
+            System.out.println(all);
 
         }
 
